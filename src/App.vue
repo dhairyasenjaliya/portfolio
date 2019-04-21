@@ -44,7 +44,12 @@
           <div class="subheading mb-5">{{ address }}
             <a href="mailto:name@email.com">{{ email }}</a>
           </div>
-          <p class="mb-5">{{ aboutMe }} <br> FrontEnd : <i> Vue.js </i> <br> BackEnd : <i> Laravel </i>  </p>
+          <p class="mb-5">{{ aboutMe }} <br>
+          <br>           
+          FrontEnd : <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/logo.png" alt="">  
+          BackEnd : <img  src="./assets/laravel.png" alt=""> <br><br>
+          Server :  <img src="./assets/nginx.png" alt="">   /
+           <img   src="./assets/apache.png" alt="">  </i> </p>   
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="#">

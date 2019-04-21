@@ -2,18 +2,22 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "my portfolio",
-  "author": "Oleg Agapov",
+  "author": "Dhairya Senjaliya",
   "private": true,
+  "homepage":"https://dhairyasenjaliya.github.io/portfolio/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
     "devicons": "^1.8.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "jquery.easing": "^1.4.1",
     "popper.js": "^1.12.9",
