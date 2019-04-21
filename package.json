@@ -10,7 +10,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "predeploy": "yarn run build",
+    "predeploy": "npms run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
