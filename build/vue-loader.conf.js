@@ -9,7 +9,8 @@ const sourceMapEnabled = isProduction
 module.exports = {
   loaders: utils.cssLoaders({
     sourceMap: sourceMapEnabled,
-    extract: isProduction
+    extract: isProduction,
+    hotReload: true // disables Hot Reload
   }),
   cssSourceMap: sourceMapEnabled,
   cacheBusting: config.dev.cacheBusting,

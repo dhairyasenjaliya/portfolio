@@ -45,11 +45,11 @@
             <a href="mailto:name@email.com">{{ email }}</a>
           </div>
           <p class="mb-5">{{ aboutMe }} <br>
-          <br>           
-          FrontEnd : <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/logo.png" alt="">  
+          <br>
+          FrontEnd : <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./assets/logo.png" alt="">
           BackEnd : <img  src="./assets/laravel.png" alt=""> <br><br>
-          Server :  <img src="./assets/nginx.png" alt="">   /
-           <img   src="./assets/apache.png" alt="">  </i> </p>   
+          Server :  <img src="./assets/nginx.png" alt="">
+           <img src="./assets/apache.png" alt=""></p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="#">
@@ -251,19 +251,19 @@ export default {
       surname: 'Senjaliya',
       address: 'INDIA · Rajkot · (+91) 8866663381 ·',
       email: 'dhairyasenjaliya@gmail.com',
-      aboutMe: 'FullStack Dev ',
+      aboutMe: 'ReactNative Architecture',
       experience: [
         {
-          position: 'Junior Web Developer',
+          position: 'React native Developer',
           company: '9Stack',
-          description: 'FullStack Front End (Vue.js) Back End  (Lavavel)',
+          description: 'Full Time React Native Developer',
           startDate: 'January 2019',
           endDate: 'Present'
         },
         {
-          position: 'Web Developer Intern',
+          position: 'Mobile App Developer Intern',
           company: 'GnWebsoft',
-          description: 'Core PHP ',
+          description: 'React Native Intern',
           startDate: 'November 2016',
           endDate: 'January 2017'
         }
